@@ -2,92 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>SQUEEZ IT - Fresh Juices & Smoothies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
     <header>
         <div class="logo">
-            <span class="logo-text">SQUEEZ IT</span>
+            <span class="logo-text">squeez</span>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Fresh. Natural. <span class="highlight">Delicious.</span></h1>
-                <p>Experience the burst of natural flavors in every bottle</p>
-                <a href="products.html" class="btn">Explore Our Juices</a>
-            </div>
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
         </section>
 
-        <section class="featured">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="images/s-l400.jpg" alt="Berry Blast Juice Bottle" />
-                    <h3>Berry Blast</h3>
-                    <p>A refreshing blend of strawberries, blueberries, and raspberries.</p>
-                    <a href="products.html" class="btn-secondary">Learn More</a>
+        <section class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>123 Coffee Street, Brewville, CA 94123</p>
                 </div>
-                <div class="product-card">
-                    <img src="images/squeeze-it-bubblegum.webp" alt="Tropical Paradise Juice Bottle" />
-                    <h3>Tropical Paradise</h3>
-                    <p>Exotic mix of mango, pineapple, and passion fruit.</p>
-                    <a href="products.html" class="btn-secondary">Learn More</a>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@brewhaven.com">info@brewhaven.com</a></p>
                 </div>
-                <div class="product-card">
-                    <img src="images/6rgsv3z3ous11.jpg" alt="Green Energy Juice Bottle" />
-                    <h3>Green Energy</h3>
-                    <p>Nutrient-packed blend of kale, spinach, apple, and cucumber.</p>
-                    <a href="products.html" class="btn-secondary">Learn More</a>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+15551234567">(555) 123-4567</a></p>
                 </div>
-            </div>
-        </section>
-
-        <section class="benefits">
-            <div class="benefits-content">
-                <h2>Why Choose SQUEEZ IT?</h2>
-                <div class="benefits-grid">
-                    <div class="benefit-item">
-                        <div class="benefit-icon">
-                            <img src="images/images.jpeg" alt="Fruit representing natural ingredients" />
-                        </div>
-                        <h3>100% Natural</h3>
-                        <p>No artificial flavors, colors, or preservatives. Just pure fruit goodness.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="benefit-icon">
-                            <img src="images/images1.jpeg" alt="Cold press icon" />
-                        </div>
-                        <h3>Cold-Pressed Fresh</h3>
-                        <p>Our juices are cold-pressed to preserve nutrients and flavor.</p>
-                    </div>
-                    <div class="benefit-item">
-                        <div class="benefit-icon">
-                            <img src="images/images.jpeg" alt="Nutrition icon" />
-                        </div>
-                        <h3>Nutrient-Rich</h3>
-                        <p>Packed with vitamins, minerals, and antioxidants for your health.</p>
-                    </div>
+                <div class="info-item">
+                    <h3>Hours</h3>
+                    <p>Monday - Friday: 9am - 5pm</p>
+                    <p>Saturday: 10am - 4pm</p>
+                    <p>Sunday: Closed</p>
                 </div>
             </div>
-        </section>
 
-        <section class="about">
-            <div class="about-content">
-                <h2>Our Story</h2>
-                <p>SQUEEZ IT was born from a passion for healthy, delicious beverages that don't compromise on taste or nutrition. We started in a small kitchen in 2018, experimenting with fresh ingredients and innovative recipes.</p>
-                <p>Today, we continue our mission to bring you the freshest, most flavorful juices made from locally-sourced fruits and vegetables.</p>
-                <a href="contact.html" class="btn">Learn More About Us</a>
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                    <div class="form-message" aria-live="polite"></div>
+                </form>
             </div>
         </section>
     </main>
@@ -95,7 +80,7 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <span class="logo-text">SQUEEZ IT</span>
+                <span class="logo-text">Brew Haven</span>
             </div>
             <div class="footer-links">
                 <h4>Quick Links</h4>
@@ -108,14 +93,14 @@
             <div class="footer-newsletter">
                 <h4>Stay Updated</h4>
                 <p>Subscribe to our newsletter for promotions and updates</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address" required />
+                <form class="newsletter-form" action="#" method="post">
+                    <input type="email" placeholder="Your email address" name="newsletter-email" required />
                     <button type="submit" class="btn-small">Subscribe</button>
                 </form>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 SQUEEZ IT. All rights reserved.</p>
+            <p>&copy; 2025 Brew Haven. All rights reserved.</p>
         </div>
     </footer>
 
