@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products - SQUEEZ IT</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
     <header>
@@ -28,141 +28,133 @@
 
         <section class="products">
             <h2>Signature Juices</h2>
-            
             <div class="product-showcase">
                 <div class="product-image-container">
-                    <img src="images/images.jpeg" alt="Berry Blast" class="product-image">
-                    
-                    <!-- Hot spots -->
+                    <img src="images/images.jpeg" alt="Berry Blast Juice" class="product-image" />
                     <div class="hotspot" data-product="berryBlast" data-feature="ingredients">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Ingredients</span>
                     </div>
-                    
                     <div class="hotspot" data-product="berryBlast" data-feature="nutrition">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Nutrition</span>
                     </div>
-                    
                     <div class="hotspot" data-product="berryBlast" data-feature="benefits">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Benefits</span>
                     </div>
                 </div>
-                
                 <div class="product-info">
                     <h3>Berry Blast</h3>
-                    <p class="product-description">Our most popular juice! A refreshing blend of strawberries, blueberries, and raspberries that's both delicious and packed with antioxidants.</p>
+                    <p class="product-description">
+                        Our most popular juice! A refreshing blend of strawberries, blueberries, and raspberries that's both delicious and packed with antioxidants.
+                    </p>
                     <p class="price">$5.99</p>
                     <p class="product-tagline">Click on the hotspots to learn more about this product!</p>
                 </div>
             </div>
-            
+
+            <!-- Tropical Paradise -->
             <div class="product-showcase">
                 <div class="product-image-container">
-                    <img src="images/s-l400.jpg" alt="Tropical Paradise" class="product-image">
-                    
-                    <!-- Hot spots -->
+                    <img src="images/s-l400.jpg" alt="Tropical Paradise Juice" class="product-image" />
                     <div class="hotspot" data-product="tropicalParadise" data-feature="ingredients">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Ingredients</span>
                     </div>
-                    
                     <div class="hotspot" data-product="tropicalParadise" data-feature="nutrition">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Nutrition</span>
                     </div>
-                    
                     <div class="hotspot" data-product="tropicalParadise" data-feature="benefits">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Benefits</span>
                     </div>
                 </div>
-                
                 <div class="product-info">
                     <h3>Tropical Paradise</h3>
-                    <p class="product-description">Transport yourself to a tropical island with this exotic mix of mango, pineapple, and passion fruit. Sweet, tangy, and refreshing!</p>
+                    <p class="product-description">
+                        Transport yourself to a tropical island with this exotic mix of mango, pineapple, and passion fruit. Sweet, tangy, and refreshing!
+                    </p>
                     <p class="price">$5.99</p>
                     <p class="product-tagline">Click on the hotspots to learn more about this product!</p>
                 </div>
             </div>
-            
             <div class="product-showcase">
                 <div class="product-image-container">
-                    <img src="images/squeeze-it-bubblegum.webp" alt="Green Energy" class="product-image">
-                    
-                    <!-- Hot spots -->
+                    <img src="images/squeeze-it-bubblegum.webp" alt="Green Energy Juice" class="product-image" />
                     <div class="hotspot" data-product="greenEnergy" data-feature="ingredients">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Ingredients</span>
                     </div>
-                    
                     <div class="hotspot" data-product="greenEnergy" data-feature="nutrition">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Nutrition</span>
                     </div>
-                    
                     <div class="hotspot" data-product="greenEnergy" data-feature="benefits">
                         <span class="hotspot-dot"></span>
                         <span class="hotspot-label">Benefits</span>
                     </div>
                 </div>
-                
                 <div class="product-info">
                     <h3>Green Energy</h3>
-                    <p class="product-description">A nutrient-packed blend of kale, spinach, apple, and cucumber. The perfect balance of green goodness with a touch of sweetness.</p>
+                    <p class="product-description">
+                        A nutrient-packed blend of kale, spinach, apple, and cucumber. The perfect balance of green goodness with a touch of sweetness.
+                    </p>
                     <p class="price">$6.49</p>
                     <p class="product-tagline">Click on the hotspots to learn more about this product!</p>
                 </div>
             </div>
         </section>
-
-        <!-- Feature Info Modal -->
-        <div class="feature-modal">
-            <div class="feature-modal-content">
-                <span class="close-modal">&times;</span>
+        <div class="feature-modal" aria-hidden="true">
+            <div class="feature-modal-content" role="dialog" aria-modal="true">
+                <span class="close-modal" role="button" tabindex="0" aria-label="Close modal">&times;</span>
                 <h3 class="feature-title"></h3>
                 <div class="feature-description"></div>
             </div>
         </div>
+
 
         <section class="promotions">
             <h2>Special Promotions</h2>
             <div class="promo-container">
                 <div class="promo-card" data-promo="twoForOne">
                     <div class="promo-icon">
-                        <img src="/placeholder.svg?height=80&width=80" alt="2 for 1 Deal">
+                        <img src="/placeholder.svg?height=80&width=80" alt="2 for 1 Deal Icon" />
                     </div>
                     <h3>2 for 1 Deal</h3>
                     <p class="promo-description">Buy one, get one free on all juices!</p>
                     <div class="promo-button-wrapper">
-                        <button class="promo-button">
+                        <button class="promo-button" type="button">
                             <span class="button-icon">🔍</span>
                             <span class="button-text">Click for Promo Details</span>
                         </button>
                     </div>
                 </div>
+
                 <div class="promo-card" data-promo="freeShipping">
                     <div class="promo-icon">
-                        <img src="/placeholder.svg?height=80&width=80" alt="Free Shipping">
+                        <img src="/placeholder.svg?height=80&width=80" alt="Free Shipping Icon" />
                     </div>
                     <h3>Free Shipping</h3>
                     <p class="promo-description">Free shipping on orders over $30!</p>
                     <div class="promo-button-wrapper">
-                        <button class="promo-button">
+                        <button class="promo-button" type="button">
                             <span class="button-icon">🔍</span>
                             <span class="button-text">Click for Promo Details</span>
                         </button>
                     </div>
                 </div>
+
+                <!-- Subscription -->
                 <div class="promo-card" data-promo="subscription">
                     <div class="promo-icon">
-                        <img src="/placeholder.svg?height=80&width=80" alt="Subscription">
+                        <img src="/placeholder.svg?height=80&width=80" alt="Subscription Icon" />
                     </div>
                     <h3>Juice Subscription</h3>
                     <p class="promo-description">Save 15% with regular deliveries!</p>
                     <div class="promo-button-wrapper">
-                        <button class="promo-button">
+                        <button class="promo-button" type="button">
                             <span class="button-icon">🔍</span>
                             <span class="button-text">Click for Promo Details</span>
                         </button>
@@ -171,9 +163,10 @@
             </div>
         </section>
 
-        <div class="lightbox">
-            <div class="lightbox-content">
-                <span class="close-lightbox">&times;</span>
+        <!-- Lightbox -->
+        <div class="lightbox" aria-hidden="true">
+            <div class="lightbox-content" role="dialog" aria-modal="true">
+                <span class="close-lightbox" role="button" tabindex="0" aria-label="Close lightbox">&times;</span>
                 <h2 id="lightbox-title"></h2>
                 <div id="lightbox-description"></div>
                 <div id="lightbox-details"></div>
@@ -197,8 +190,8 @@
             <div class="footer-newsletter">
                 <h4>Stay Updated</h4>
                 <p>Subscribe to our newsletter for promotions and updates</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Your email address">
+                <form class="newsletter-form" action="#" method="post">
+                    <input type="email" name="newsletter-email" placeholder="Your email address" required />
                     <button type="submit" class="btn-small">Subscribe</button>
                 </form>
             </div>
