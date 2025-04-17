@@ -31,40 +31,12 @@ This project is a three-page website for the SQUEEZ IT brand, featuring:
 - JavaScript (vanilla, no frameworks)
 - Responsive design techniques
 
-## Project Structure
-
-\`\`\`
-SQUEEZ IT/
-├── index.html              # Home page
-├── products.html           # Products page with hotspots
-├── contact.html            # Contact page
-├── css/
-│   └── main.css            # Main stylesheet
-├── js/
-│   └── main.js             # JavaScript functionality
-└── images/                 # Product and promotional images
-\`\`\`
-
-## Setup Instructions
-
-1. Clone the repository:
-   \`\`\`
-   git clone https://github.com/yourusername/squeez-it-website.git
-   \`\`\`
-
-2. Open any of the HTML files in a web browser to view the website.
-
 ## Features Implementation
 
 ### Interactive Hotspots
 - Hotspots are positioned on product images
 - Clicking a hotspot displays detailed information about the product feature
 - Information is displayed in a modal with smooth animations
-
-### Promotional Content
-- "Click for promo details" buttons retrieve content from an array
-- Content is displayed in a lightbox with animation effects
-- Promotional details include title, description, and bullet points
 
 ### Responsive Design
 - The website is fully responsive and works on all device sizes
